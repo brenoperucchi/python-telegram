@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+python_telegram.egg-info/PKG-INFO
+python_telegram.egg-info/SOURCES.txt
+python_telegram.egg-info/dependency_links.txt
+python_telegram.egg-info/top_level.txt
+telegram_api/__init__.py
+telegram_api/client.py
+telegram_api/tdjson.py
+telegram_api/utils.py
+telegram_api/worker.py
+telegram_api/lib/darwin/libtdjson.dylib
+telegram_api/lib/linux/libtdjson.so

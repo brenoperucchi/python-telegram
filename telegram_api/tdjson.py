@@ -15,7 +15,7 @@ def _get_tdjson_lib_path() -> str:
     else:
         lib_name = 'linux/libtdjson.so'
 
-    return pkg_resources.resource_filename('telegram', f'lib/{lib_name}')
+    return pkg_resources.resource_filename('telegram_api', f'lib/{lib_name}')
 
 
 class TDJson:

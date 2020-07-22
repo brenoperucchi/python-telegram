@@ -40,7 +40,7 @@ Check the [tutorial](http://python-telegram.readthedocs.io/en/latest/tutorial.ht
 Basic example:
 
 ```python
-    from telegram.client import Telegram
+    from telegram_api.client import Telegram
 
     tg = Telegram(
         api_id='api_id',
@@ -70,21 +70,3 @@ More examples you can find in the [/examples/ directory](/examples/).
 ----
 
 More information in the [documentation](http://python-telegram.readthedocs.io).
-
-## Development
-
-### Tests
-
-To run tests you need to install [tox](https://tox.readthedocs.io/en/latest/) first.
-
-Start tests:
-
-```shell
-tox
-```
-
-Run a specific test for python3.7:
-
-```shell
-tox -e py37 -- tests/test_telegram_methods.py::TestTelegram::test_add_message_handler
-```

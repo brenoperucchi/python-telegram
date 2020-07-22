@@ -1,6 +1,6 @@
 import argparse
 
-from telegram.client import Telegram
+from telegram_api.client import Telegram
 import utils
 
 if __name__ == '__main__':

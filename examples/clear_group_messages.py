@@ -3,7 +3,7 @@ import argparse
 import json
 from datetime import datetime
 
-from telegram.client import Telegram
+from telegram_api.client import Telegram
 import utils
 
 logger = logging.getLogger(__name__)
